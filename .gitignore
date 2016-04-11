@@ -15,6 +15,7 @@
 !/var/sessions
 /var/sessions/*
 !var/sessions/.gitkeep
+npm-debug.log
 
 # Parameters
 /app/config/parameters.yml
@@ -44,3 +45,5 @@
 
 # Composer PHAR
 /composer.phar
+
+nbproject/
