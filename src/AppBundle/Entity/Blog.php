@@ -20,9 +20,6 @@ use Symfony\Component\Validator\Constraints as Assert;
  * @property string $text
  * @property \DateTime $created
  * @property \DateTime $modified
- * 
- * @package appBundle
- * @subpackage entity
  */
 class Blog
 {

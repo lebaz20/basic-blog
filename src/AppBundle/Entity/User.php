@@ -7,8 +7,12 @@ use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * User entity
+ * 
  * @ORM\Entity
  * @ORM\Table(name="fos_user")
+ * 
+ * @property int $id
  */
 class User extends BaseUser
 {
