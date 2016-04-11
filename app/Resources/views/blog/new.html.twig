@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Blog creation</h1>
+    <a href="{{ path('blog_index') }}">Back to the list</a>
+    <br><br>
+    {{ tinymce_init() }}
+    
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <input class="btn btn-primary" type="submit" value="Create" />
+    {{ form_end(form) }}
+
+{% endblock %}
