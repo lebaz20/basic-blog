@@ -1,2 +1,2 @@
 # basic-blog
-A basic blog using symfony3 framework
+A basic blog using symfony2 framework
